@@ -22,7 +22,7 @@ from setting.utils import clip_gradient, adjust_lr
 from setting.utils import create_folder, random_seed_setting
 from setting.options import opt
 from setting.loss import IOU, SSIM
-from model.build_model import PICR_Net
+from model.build_model import MRCF
 
 random_seed_setting()
 torch.backends.cudnn.deterministic = False
