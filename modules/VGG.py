@@ -1,15 +1,10 @@
-"""
-@Project: PICR_Net
-@File: modules/VGG.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 import torch.nn as nn
 import torchvision
 import torch
 
 
-# -----------------------------------------加在mcf模块后的二次融合模块-------------------------------------------------------
+# -----------------------------------------鍔犲湪mcf妯″潡鍚庣殑浜屾铻嶅悎妯″潡-------------------------------------------------------
 class ConvNormAct(nn.Module):
 
     def __init__(self, in_ch, out_ch, kernel_size=3, stride=1, padding=1, groups=1, dilation=1, act=True, bias=False):
