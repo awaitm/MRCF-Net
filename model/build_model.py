@@ -1,9 +1,3 @@
-"""
-@Project: PICR_Net
-@File: model/build_model.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
 import torch
 import torchvision
 import torch.nn as nn
