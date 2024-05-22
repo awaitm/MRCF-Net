@@ -174,7 +174,7 @@ class Bottle2neck(nn.Module):
         return out
 
 
-class PICR_Net(nn.Module):
+class MRCF(nn.Module):
 
     def __init__(self):
         super(PICR_Net, self).__init__()
