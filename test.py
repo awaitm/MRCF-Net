@@ -12,7 +12,7 @@ import torch
 import torch.nn.functional as F
 from tqdm import tqdm
 
-from model.build_model import PICR_Net as PGNet
+from model.build_model import MRCF as MRNet
 from setting.dataLoader import test_dataset
 from setting.options import opt
 from setting.utils import create_folder
@@ -22,7 +22,7 @@ GPU_NUMS = torch.cuda.device_count()
 
 # model
 print('load model...')
-model = PGNet()
+model = MRNet()
 if GPU_NUMS == 1:
     print("Use Single GPU-", opt.gpu_id)
 elif GPU_NUMS > 1:
