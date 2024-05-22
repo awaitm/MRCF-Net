@@ -1,9 +1,3 @@
-"""
-@Project: PICR_Net
-@File: train.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
 
 import time
 import os
