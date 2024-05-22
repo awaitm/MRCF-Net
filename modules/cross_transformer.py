@@ -1,9 +1,4 @@
-"""
-@Project: PICR_Net
-@File: modules/cross_transformer.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 
 import torch
 import torch.nn as nn
