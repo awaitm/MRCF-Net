@@ -1,9 +1,4 @@
-"""
-@Project: PICR_Net
-@File: setting/utils.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 
 
 def clip_gradient(optimizer, grad_clip):
