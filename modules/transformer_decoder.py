@@ -5,8 +5,8 @@ import torch.nn as nn
 from einops import rearrange
 import torch.utils.checkpoint as checkpoint
 import torch.nn.functional as F
-from modules.module_CIRNet.BaseBlock import *
-from modules.module_CIRNet.cmWR import *
+from modules.BaseBlock import *
+from modules.cmWR import *
 
 from modules.swin_transformer import Mlp, WindowAttention, SwinTransformerBlock
 from timm.models.layers import trunc_normal_
