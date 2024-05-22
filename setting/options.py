@@ -1,9 +1,4 @@
-"""
-@Project: PICR_Net
-@File: setting/options.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 
 
 import argparse
