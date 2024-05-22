@@ -1,9 +1,4 @@
-"""
-@Project: PICR_Net
-@File: setting/dataloader.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 
 import os
 import random
