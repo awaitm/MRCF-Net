@@ -1,9 +1,4 @@
-"""
-@Project: PICR_Net
-@File: PGNet_test.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 
 import cv2
 import numpy as np
