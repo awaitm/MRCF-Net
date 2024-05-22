@@ -171,7 +171,7 @@ class Bottle2neck(nn.Module):
 class MRCF(nn.Module):
 
     def __init__(self):
-        super(PICR_Net, self).__init__()
+        super(MRCF, self).__init__()
         channels = [96, 96 * 2, 96 * 4, 96 * 8, 96 * 8]
         self.backbone = Swin_T(pretrained=True)
         self.low_feature_extract = LowFeatureExtract()
