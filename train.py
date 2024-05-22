@@ -41,7 +41,7 @@ val_loader, val_num = get_loader(opt.val_rgb_root, opt.val_depth_root, opt.val_g
 print(f'Loading data, including {train_num} training images and {val_num} validation images.')
 logging.info(f'Loading data, including {train_num} training images and {val_num} validation images.')
 # model
-model = PICR_Net()
+model = MRCF()
 if GPU_NUMS == 1:
     print(f"Loading model, and using single GPU - {opt.gpu_id}")
 elif GPU_NUMS > 1:
