@@ -1,9 +1,4 @@
-"""
-@Project: PICR_Net
-@File: modules/transformer_decoder.py
-@Author: chen zhang
-@Institution: Beijing JiaoTong University
-"""
+
 
 import torch
 import torch.nn as nn
@@ -202,7 +197,7 @@ def ChannelHalvingConv(feature):
     conv = nn.Conv2d(in_c, out_c, kernel_size=1).cuda()
     return conv(feature)
 
-# -----------------------------------------加在mcf模块后的二次融合模块-------------------------------------------------------
+# -----------------------------------------鍔犲湪mcf妯″潡鍚庣殑浜屾铻嶅悎妯″潡-------------------------------------------------------
 class ConvNormAct(nn.Module):
 
     def __init__(self, in_ch, out_ch, kernel_size=3, stride=1, padding=1, groups=1, dilation=1, act=True, bias=False):
